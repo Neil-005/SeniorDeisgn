@@ -16,18 +16,21 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Color(.white)
-            VStack{
-                Text("FootTech")
-                    .font(Font.DesignSystem.headlineTitle)
-                Image("Logo").resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
-                
-                Button("Start Here") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }.frame(height: 75)
-                    .frame(maxWidth: .infinity)
-                    .buttonStyle(.borderedProminent)
+            NavigationView{
+                VStack{
+                    Text("FootTech")
+                        .font(Font.DesignSystem.headlineTitle)
+                    Image("Logo").resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0)).padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
                     
+                    NavigationLink(destination: TwoChoice()){
+                        Text("Start Here")
+                    }.buttonStyle(.borderedProminent).frame(height:150).padding()
+                
+                    
+                }
+                
             }
+           
             
         }
         

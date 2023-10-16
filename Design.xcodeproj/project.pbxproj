@@ -17,6 +17,9 @@
 		2804F0E22AD72C5B009F0FF2 /* DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2804F0E12AD72C5B009F0FF2 /* DesignUITestsLaunchTests.swift */; };
 		287844C12ADB500E00CBA317 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 287844C02ADB500E00CBA317 /* DesignSystem */; };
 		287844C52ADC736500CBA317 /* TwoChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287844C42ADC736500CBA317 /* TwoChoice.swift */; };
+		287844C72ADC7F1A00CBA317 /* SpatialMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287844C62ADC7F1A00CBA317 /* SpatialMap.swift */; };
+		287844C92ADC7FDF00CBA317 /* StrainRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287844C82ADC7FDF00CBA317 /* StrainRead.swift */; };
+		287844CB2ADCCD5C00CBA317 /* GM Map.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 287844CA2ADCCD5C00CBA317 /* GM Map.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		2804F0E12AD72C5B009F0FF2 /* DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		287844BB2ADB4F2200CBA317 /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignSystem; sourceTree = "<group>"; };
 		287844C42ADC736500CBA317 /* TwoChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoChoice.swift; sourceTree = "<group>"; };
+		287844C62ADC7F1A00CBA317 /* SpatialMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialMap.swift; sourceTree = "<group>"; };
+		287844C82ADC7FDF00CBA317 /* StrainRead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainRead.swift; sourceTree = "<group>"; };
+		287844CA2ADCCD5C00CBA317 /* GM Map.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GM Map.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				2804F0C42AD72C5A009F0FF2 /* ContentView.swift */,
 				2804F0C62AD72C5A009F0FF2 /* Item.swift */,
 				287844C42ADC736500CBA317 /* TwoChoice.swift */,
+				287844C82ADC7FDF00CBA317 /* StrainRead.swift */,
+				287844C62ADC7F1A00CBA317 /* SpatialMap.swift */,
+				287844CA2ADCCD5C00CBA317 /* GM Map.mp4 */,
 				2804F0C82AD72C5B009F0FF2 /* Assets.xcassets */,
 				2804F0CA2AD72C5B009F0FF2 /* Preview Content */,
 			);
@@ -252,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287844CB2ADCCD5C00CBA317 /* GM Map.mp4 in Resources */,
 				2804F0CC2AD72C5B009F0FF2 /* Preview Assets.xcassets in Resources */,
 				2804F0C92AD72C5B009F0FF2 /* Assets.xcassets in Resources */,
 			);
@@ -278,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287844C92ADC7FDF00CBA317 /* StrainRead.swift in Sources */,
 				2804F0C52AD72C5A009F0FF2 /* ContentView.swift in Sources */,
+				287844C72ADC7F1A00CBA317 /* SpatialMap.swift in Sources */,
 				2804F0C72AD72C5A009F0FF2 /* Item.swift in Sources */,
 				2804F0C32AD72C5A009F0FF2 /* DesignApp.swift in Sources */,
 				287844C52ADC736500CBA317 /* TwoChoice.swift in Sources */,
